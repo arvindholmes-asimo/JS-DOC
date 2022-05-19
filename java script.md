@@ -132,8 +132,8 @@ VARIABLES are like containers to store values
 		>String object is used to represent and manipulate a sequence of characters.
 		most used 
 		>`to check their length , 
-		>checking for the existence or location of substrings with the indexOf() method 
-		>extracting substrings with the substring() method.
+		>checking for the existence or location of substrings with the`indexOf()` method 
+		>extracting substrings with the `substring()` method.
 
 
 		 
