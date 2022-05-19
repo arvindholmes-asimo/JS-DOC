@@ -134,8 +134,26 @@ VARIABLES are like containers to store values
 		>`to check their length , 
 		>checking for the existence or location of substrings with the`indexOf()` method 
 		>extracting substrings with the `substring()` method.
-
-
+		most used strings in js 
+	charAt(x)
+charCodeAt(x)
+concat(v1,v2..)
+fromCharcode(c1,c2)
+indexOf(substr, [start])
+lastIndexOf(substr, [start])
+JavaScript - javascript string function- Edurekamatch(regexp)
+replace(regexp/substr, replacetext)
+search(regexp),slice(start, [end])
+split(delimiter, [limit])
+substr(start, [length])
+substring(from, [to])
+toLowerCase()
+toUpperCase()
+includes()
+endsWith()
+repeat()
+valueOf()
+trim()
 		 
 
 #### Undefined
