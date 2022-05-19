@@ -112,9 +112,13 @@ VARIABLES are like containers to store values
 	• console.log(document.getElementById("headingElement"))
 	• To manipulate text within the property we use textContent
 ### PRIMITIVE TYPES & CONDITIONALS 
-	>PRIMITIVE = string, number, bigint, boolean, undefined, symbol, and null.
+	>PRIMITIVE = 
+	examples string, number, bigint, boolean, undefined, symbol, and null.
+	>https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript/
 	>>https://developer.mozilla.org/en-US/docs/Glossary/Primitive#primitive_wrapper_objects_in_javascript
-
+ primitive data types are `pretty simple, and are sometimes treated as the lowest level of implementation `of a programming language and they are not objects, and do not have methods.
+>( A stack is a simple data structure that the computer uses to store and retrieve data quickly.)
+(>A Heap is a special Tree-based data structure in which the tree is a complete binary tree)
 	> Refernce
 ####	Number
 	1. All no are number type 
@@ -148,6 +152,12 @@ Javascript actually rearranges your variable declarations during the browser pro
 
 >https://medium.com/@LindaVivah/es6-javascript-understanding-let-const-9eba72b22f66#:~:text=Why%20were%20Let%20%26%20Const%20added%3F&text=Variables%20declared%20with%20let%20and,block%2C%20not%20to%20the%20function.
 
+### Reference 
+Reference data types, unlike primitive data types, are dynamic in nature. That is, they do not have a fixed size.
+>Most of them are considered as objects, and therefore have methods. Examples of such data types include `arrays, functions, collections, and all other types of objects.`
+
+
+
 Variables declared inside a { } block cannot be accessed from outside the block
 Variables declared with the `var keyword can NOT have block scope.`
 Variables declared `inside a { } block can be accessed from outside the block.`
@@ -161,3 +171,15 @@ In most programming languages variables have a block scope → variables created
 BUT `var` in javaScript has function scope → variables live within functions & are scoped to the function. Any variable you create with the `keyword VAR` is local to the function that they were created in. A variable that was created in a parent function lives also in the child function.
 >https://medium.com/@ryan.spencer1220/javascript-scope-closure-c3a41c0cf605
 
+### JSON (JavaScript Object Notation)
+>lightweight data-interchange format
+>completely language independent
+>based on the JavaScript programming language
+### xml (extensible markup language)
+>designed to carry data not ro display
+>defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.
+> goals of XML focus on `simplicity, generality, and usability `across the Internet
+>design of XML focuses on documents
+> used for representation of arbitrary data structures
+>why json over xml ?
+ for serializing structured data and exchanging it over a network, typically between a server and web applications.
